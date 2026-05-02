@@ -3,33 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Electroniks | Магазин майбутнього</title>
+    <title>Smart Electronics | Static Showcase</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <nav class="navbar">
-            <div class="logo">Smart <span>Electroniks</span></div>
-            <ul class="nav-links">
-                <li><a href="index.html">Головна</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="contact.html">Контакти</a></li>
-            </ul>
-        </nav>
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">SMART<span>ELECTRONICS</span></div>
+            <div class="search-bar">
+                <input type="text" placeholder="Пошук товарів...">
+            </div>
+            <div class="cart-preview">
+                <span class="icon">🛒</span> Кошик (0)
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Майбутнє <span>вже тут</span></h1>
+            <p>Обирайте найкращу електроніку з гарантією якості.</p>
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <h1>Відкрий світ інновацій</h1>
-            <p>Найкращі гаджети за вигідними цінами тільки у нас.</p>
-            <a href="catalog.html" class="btn">Перейти до покупок</a>
+    <main class="container">
+        <section class="section-title">
+            <h2>Наші товари</h2>
+            <div class="line"></div>
         </section>
 
-        </main>
+        <div class="grid">
+            <div class="card">
+                <span class="img-placeholder">
+                    <img src="https://content2.rozetka.com.ua/goods/images/big/653660306.jpg" alt="" class="product_img">
+                </span>
+                <h3>iPhone 15 Ultra</h3>
+                <p class="desc">Найпотужніший смартфон з титановим корпусом.</p>
+                <div class="card-footer-row">
+                    <span class="price">58,000 ₴</span>
+                    <button class="btn-buy">Купити</button>
+                </div>
+            </div>
 
-    <footer>
-        <p>&copy; 2026 Smart Electroniks. Всі права захищені.</p>
+            <div class="card">
+                <span class="img-placeholder">
+                    <img src="https://i.allo.ua/media/catalog/product/cache/3/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/6/3/63_4000_8_2_3.webp" alt="" class="product_img">
+                </span>
+                <h3>MacBook Pro M3</h3>
+                <p class="desc">Професійна потужність для найскладніших завдань.</p>
+                <div class="card-footer-row">
+                    <span class="price">92,000 ₴</span>
+                    <button class="btn-buy">Купити</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="img-placeholder">⌚</span>
+                <h3>Apple Watch X</h3>
+                <p class="desc">Ваш персональний тренер на зап'ясті.</p>
+                <div class="card-footer-row">
+                    <span class="price">18,000 ₴</span>
+                    <button class="btn-buy">Купити</button>
+                </div>
+            </div>
+            <div class="card">
+                <span class="img-placeholder">⌚</span>
+                <h3>Apple Watch X</h3>
+                <p class="desc">Ваш персональний тренер на зап'ясті.</p>
+                <div class="card-footer-row">
+                    <span class="price">18,000 ₴</span>
+                    <button class="btn-buy">Купити</button>
+                </div>
+            </div>
+            <div class="card">
+                <span class="img-placeholder">⌚</span>
+                <h3>Apple Watch X</h3>
+                <p class="desc">Ваш персональний тренер на зап'ясті.</p>
+                <div class="card-footer-row">
+                    <span class="price">18,000 ₴</span>
+                    <button class="btn-buy">Купити</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="img-placeholder">🎧</span>
+                <h3>Sony WH-1000XM5</h3>
+                <p class="desc">Найкраще шумопоглинання у світі аудіо.</p>
+                <div class="card-footer-row">
+                    <span class="price">15,000 ₴</span>
+                    <button class="btn-buy">Купити</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="simple-footer">
+        <div class="container">
+            <p>&copy; 2026 Smart Electronics. Всі права захищено.</p>
+        </div>
     </footer>
 
 </body>
