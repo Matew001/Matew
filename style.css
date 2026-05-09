@@ -157,3 +157,45 @@ body {
   text-align: center;
   color: #64748b;
 }
+
+.about-card {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.about-card p {
+  margin-bottom: 15px;
+  color: #cbd5e1;
+}
+
+.cart-preview a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cart-preview a:hover {
+  color: var(--primary);
+}
+
+/* КНОПКА НАЗАД */
+
+.back-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 24px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
