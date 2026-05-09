@@ -199,3 +199,142 @@ body {
   transform: translateY(-3px);
   opacity: 0.9;
 }
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.cart-item {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+
+.cart-item:hover {
+  border-color: var(--primary);
+  transform: translateY(-3px);
+}
+
+.cart-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.cart-info {
+  flex: 1;
+}
+
+.cart-info h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.cart-info p {
+  color: #94a3b8;
+}
+
+.cart-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+}
+
+.cart-summary {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 80px;
+  border: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+}
+
+.cart-summary h2 {
+  margin-bottom: 15px;
+}
+
+.cart-summary span {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: var(--primary);
+}
+
+.checkout-btn {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.checkout-btn:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+.checkout-form {
+  background: var(--card-bg);
+  padding: 35px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+  margin-bottom: 80px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 14px 18px;
+  border-radius: 12px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--primary);
+  background: rgba(255,255,255,0.08);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group select option {
+  background: #1e293b;
+  color: white;
+}
